@@ -24,14 +24,14 @@ Configure WireGuard VPN on MikroTik
 
  - Firewall rule before the drop rule
 
-   Chain: input
-   Src. Address: 192.168.100.0/24
-   Action: Accept
+   -Chain: input
+   -Src. Address: 192.168.100.0/24
+   -Action: Accept
    
-   Chain: input
-   Protocol: UDP
-   Dst. Port: 13231
-   Action: Accept
+   -Chain: input
+   -Protocol: UDP
+   -Dst. Port: 13231
+   -Action: Accept
 
  ![firewall](https://user-images.githubusercontent.com/44748406/193424793-026d6e1e-db24-46a0-b1d9-cf0123e00a1a.png)
  
